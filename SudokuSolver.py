@@ -14,7 +14,7 @@ Sudoku is a logic-based combinatorial number-placement puzzle. The code implemen
 
 1. **AC-3 Algorithm:** This algorithm enforces arc consistency and propagates constraints to reduce the domain size of variables by ensuring the consistency of assignments. It iteratively removes values from the domain of variables based on constraints until a solution is found or it determines that no solution exists.
 2. **Backtracking with Minimum Remaining Values (MRV) Heuristic:** This algorithm recursively searches for a solution by assigning values to empty cells and backtracking when a solution is not valid. It selects the next cell to be assigned a value based on the MRV heuristic, which prioritizes cells with the fewest remaining valid values.
-We have included a set of predefined Sudoku puzzles stored as lists of lists. The main block allows the user to choose a puzzle to solve interactively by inputting a number between 1 and 5. You can try the puzzle [here](https://colab.research.google.com/drive/1NVO3W0-mAX2bLB0z7dQzW-2prCUO3E9j?usp=sharing)
+We have included a set of predefined Sudoku puzzles stored as lists of lists. The main block allows the user to choose a puzzle to solve interactively by inputting a number between 1 and 100. You can try the puzzle [here](https://colab.research.google.com/drive/1NVO3W0-mAX2bLB0z7dQzW-2prCUO3E9j?usp=sharing)
 
 [GitHub Repository](https://github.com/Armdoor/SudokuSolver)
 """
